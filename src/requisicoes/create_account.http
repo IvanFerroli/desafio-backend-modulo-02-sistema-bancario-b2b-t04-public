@@ -1,0 +1,12 @@
+POST http://localhost:5000/criar/contas
+Content-Type: application/json
+
+{
+  "nome": "Alice Silva",
+  "email": "alice@example.com",
+  "cpf": "11122233344",
+  "data_nascimento": "1995-08-15",
+  "telefone": "11988887777",
+  "senha": "senha123"
+}
+
